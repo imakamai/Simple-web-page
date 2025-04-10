@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif; 
+    background-color: #131413;
+}
+
+/* Ime kompanije HYBE COMPANY */
+
+label.logo{
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-family: 'Syncopate', sans-serif;
+    text-shadow: 3px 1px 11px gray;
+}
+/* Navbar links */
+
+nav{
+    background: #ebca70;
+    height: 90px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-shadow: 3px 1px 11px gray;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+/* Texth1 */
+
+label.logor{
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-shadow: 3px 1px 11px gray;
+}
+
+/* Text */
+
+label.logot{
+    position: relative;
+     display: flex;
+     margin-left: 1190px;
+    font-size: 20.5px;
+    text-shadow: 3px 1px 11px rgb(80, 79, 79);
+    color: #ebca70;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Syncopate', sans-serif;
+}
+
+label.logop{
+    position: relative;
+     display: flex;
+     margin-left: 75px;
+    font-size: 20.5px;
+    text-shadow: 3px 1px 11px rgb(80, 79, 79);
+    color: #ebca70;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Syncopate', sans-serif;
+} 
+
+.lp{
+    margin: 40px 40px 40 40px;
+    font-family:  "Bitstream Vera Sans Mono";
+    margin-left: 600px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 1190px;
+    margin-right: 80px;
+    font-size: 20px;
+    font-weight: 595;
+    color: white;
+}
+
+.lp:hover{
+    background: #ebca70;
+    transition: 0.5s;
+    text-shadow: 3px 1px 11px black;
+}
+
+.lpo{
+    margin: 40PX 0 40 0;
+    font-family:  "Bitstream Vera Sans Mono";
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: 80px;
+    margin-right: 1200px;
+    font-size: 20px;
+    font-weight: 595;
+    color: white;
+}
+
+.lpo:hover{
+    background: #ebca70;
+    transition: 0.5s;
+    text-shadow: 3px 1px 11px black;
+}
+
+/* Slike  */
+
+.img{
+    margin-top: -405.5px;
+    float:right;
+    margin-right: 120px;
+    width: 600;
+}
+
+.img5{
+    margin-top: -500.55px;
+    float:left;
+    margin-left: 120px;
+    width: 700;
+}
+
+.img9{
+    margin-top: -430.5px;
+    float:right;
+    margin-right: 120px;
+    width: 700;
+}
+
+/* Futer1 sa youtube i spotify linkom */
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.main-footer{
+    background-color: #ebca70;
+    color: black;
+    padding: .25em 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0.5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+#kontakt{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-top: -35px;
+    margin-left: -500px;
+    font-size: 13px;
+}
+
+/* Futur2 moji podaci */
+
+.b{
+    color: white;
+    position: relative;
+     display: flex;
+     vertical-align: middle;
+    justify-content: center;
+    justify-self: center;
+    font-family: Bodoni MT;
+    font-size: 20px;
+}
+
+.p{
+    color: white;
+    font-size: 12.5px;
+}
+
+/* Linija */
+
+.crta{
+    width: 3px;
+    height: 110%;
+    background-color: #ebca70;
+    position: absolute;
+    left: 50%;
+}
+
+.krug{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #ebca70;
+    position: absolute;
+    left: 49.65%;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(255,255,255,0.45); 
+    box-shadow: 0px 0px 15px 1px rgba(255,255,255,0.45);
+}

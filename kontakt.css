@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: black;
+}
+
+body{
+    background-image: url("slike/jpyhb2ostefxc6HOlgIxpOIjZYSNRvjC6HLy6PWN5mFCbyIck0YR8IlkKSqV1Bn5Ab0UGNsXDN24uQqYgVIq30jXRIQMUkyMmTeArCqu54RXQ6lhE7lpAhkzfacyYfhm-1600x1066.jpg"); 
+    
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+/* Ime kompanije HYBE COMPANY */
+
+label.logo{
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-family: 'Syncopate', sans-serif;
+    text-shadow: 3px 1px 11px gray;
+}
+
+/* Texth1 */
+
+label.logor{
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-shadow: 3px 1px 11px black;
+    font-family:'Roboto', sans-serif; 
+}
+
+/* Ime kompanije HYBE COMPANY */
+
+label.logo{
+    color: black;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+/* Navbar links */
+
+nav{
+    background: #ebca70;
+    height: 90px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-shadow: 3px 1px 11px gray;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+/* Tabela */
+
+#myform{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: rgba(0,0,0,0.75);
+	margin: 10px auto;
+	padding: 20px;
+	background: 0,0,0,0.03;
+	border-radius: 8px;
+    font-family: Segoe UI;
+    margin-bottom: 10rem;
+}
+#myform fieldset{
+	border: none;
+}
+#myform legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+#myform label {
+	display: block;
+	margin-bottom: 8px;
+}
+#myform input[type="text"],
+#myform input[type="date"],
+#myform input[type="datetime"],
+#myform input[type="email"],
+#myform input[type="number"],
+#myform input[type="search"],
+#myform input[type="time"],
+#myform input[type="url"],
+#myform input[type="tel"],
+#myform textarea,
+#myform select {
+    font-family: Segoe UI;
+    color: #ebca70;
+    font-size: xx-large;
+	background: rgb(0, 0, 0);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: rgb(235, 233, 228);
+	color:black;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+#myform input[type="text"]:focus,
+#myform input[type="date"]:focus,
+#myform input[type="datetime"]:focus,
+#myform input[type="email"]:focus,
+#myform input[type="number"]:focus,
+#myform input[type="search"]:focus,
+#myform input[type="time"]:focus,
+#myform input[type="url"]:focus,
+#myform textarea:focus,
+#myform select:focus{
+    background: wheat;
+    color: black;
+}
+
+#myform .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+#myform input[type="submit"],
+#myform input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+#myform input[type="submit"]:hover,
+#myform input[type="button"]:hover
+{
+	background: #109177;
+}
+
+.dugme{
+    background-color: black;
+    color: #ebca70;
+    font-family: Segoe UI;
+    font-size: xx-large;
+    border-radius: 16px;
+    cursor: pointer;
+    margin: 4px 2px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Futer1 sa youtube i spotify linkom */
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.main-footer{
+    background-color: #ebca70;
+    color: black;
+    padding: .25em 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0.5em;
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+#kontakt{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-top: -35px;
+    margin-left: -535px;
+    font-size: 13px;
+}
+
+/* Futur2 moji podaci */ 
+
+.b{
+    color: black;
+    position: relative;
+     display: flex;
+     vertical-align: middle;
+    justify-content: center;
+    justify-self: center;
+    font-family: Bodoni MT;
+    font-size: 20px;
+}
+
+.p{
+    color: black;
+    font-size: 12.5px;
+}
+
+a{
+    font-family:'Roboto', sans-serif;
+}
